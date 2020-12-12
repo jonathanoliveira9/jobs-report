@@ -20,4 +20,5 @@ $ git db:create
 $ git db:migrate
 $ rails s
 
+To start sidekiq
 $ bundle exec sidekiq -q reports
