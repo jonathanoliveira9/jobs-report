@@ -7,7 +7,6 @@ The requirements to run this project include:
 * ruby 2.7.0p0
 
 ## Installation
-### Redis Server
 
 ```bash
 Install Redis
