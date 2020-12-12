@@ -1,25 +1,23 @@
-# README
+# Jobs Report
+This application is to learning about jobs with redis sidekiq
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Requirements
 
-Things you may want to cover:
+The requirements to run this project include:
+* ruby 2.7.0p0
 
-* Ruby version
+## Installation
+### Redis Server
 
-* System dependencies
+```bash
+Install Redis
 
-* Configuration
+$ sudo apt install redis-server
+$ sudo redis-server
 
-* Database creation
+Just clone the repository, install the bundle and run the migrations. After that, are you free to do anything.
+$ git clone git@github.com:jonathanoliveira9/jobs-report.git
+$ git db:create
+$ git db:migrate
+$ rails s
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-# jobs-report
